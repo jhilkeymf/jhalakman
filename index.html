@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header Section -->
+     <header class="l-header">
+        <nav class=" bd-grid">
+            <div>
+                <a href="#" class="nav_logo" id="home">jhalakman</a>
+            </div>
+
+            <div class="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active-link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+     </header>
+
+     <main class="l-main">
+        <!-- Home Section -->
+        <section class="home" id="home">
+                <div class="home_data">
+                    <h1 class="home_title">Hi,<br>I'm <span class="home_title-color">Jhalakman</span><br>Web Developer</h1>
+                     <a href="#contact" class="button">Contact</a>
+                    <div class="home_social">
+                    <a href="" class="home_social-icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="" class="home_social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="" class="home_social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="" class="home_social-icon"><i class='bx bxl-linkedin'></i></a>  
+                    </div> 
+                </div>
+
+                <div class="home_img">
+                    <img src="/images/photo.jpg" alt="jhalakman's image" >
+                </div>
+        </section>
+
+        <!--About-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="/images/photo.jpg" alt="jhalakman's image">
+                </div>
+                <div>
+                    <h2 class="about_subtitle">I'm Jhalakman</h2>
+                    <p class="about_text">
+                        I am a passionate beginner web developer with some experience in building modern, responsive websites
+                    using the MERN stack and other technologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills_container bd-grid">
+                <div class="skills_content">
+                    <h3 class="skills_title">Front End Development</h3>
+                    <span class="skills_text">HTML, CSS, JAVASCRIPT </span>
+                </div>
+                <div class="skills_content">
+                    <h3 class="skills_title">UI/UX Designer</h3>
+                    <span class="skills_text">Visual Hierarchy,Color Theory,Consistency</span>
+                </div>
+
+                <div class="skills_content">
+                    <h3 class="skills_title">Tools & Technologies</h3>
+                    <span class="skills_text">Github, VS Code, Dev C++, Netflify, Vercel, Figma</span>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects-->
+        <section class="project section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="project_container bd-grid">
+                <a href="" class="project_img">
+                    <img src="/images/photo1.jpg" alt="">
+                </a>
+                <a href="" class="project_img">
+                    <img src="/images/photo2.png" alt="">
+                </a>
+                <a href="" class="project_img">
+                    <img src="/images/photo3.jpeg" alt="">         
+                </a>
+                <a href="" class="project_img">
+                    <img src="/images/photo4.jpeg" alt="">         
+                </a>
+                 <a href="" class="project_img">
+                    <img src="/images/photo5.png" alt="">         
+                </a>
+                 <a href="" class="project_img">
+                    <img src="/images/photo6.jpg" alt="">         
+                </a>
+            </div>
+        </section>
+
+        <!--Contact-->
+        <section class="contact section" id="contact" >
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact_container bd-grid">
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="Name" class="contact_input">
+                    <input type="email" placeholder="Email" class="contact_input">
+                    <textarea rows="5" class="contact_input" placeholder="Message"></textarea>
+                    <button type="submit" class="contact_button button">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+     <footer class="footer">
+        
+        <div class="footer_social">
+            <a href="" class="footer_icon"><i class='bx bxl-facebook'></i></a>
+            <a href="" class="footer_icon"><i class='bx bxl-instagram'></i></a>
+            <a href="" class="footer_icon"><i class='bx bxl-github'></i></a>
+            <a href="" class="footer_icon"><i class='bx bxl-linkedin'></i></a>  
+        </div>
+        <p class="footer_text">© 2023 jhalakman. All rights reserved.</p>
+    </footer>
+<script src="main.js"></script>
+
+
+</body>
+</html>
